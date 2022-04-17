@@ -26,7 +26,7 @@ clf.fit(scaler.transform(x_train), y_train)
 
 y_pred = clf.predict(scaler.transform(x_test))
 mse = mean_squared_error(y_test, y_pred)
-print(mse)
+print(f"mse: {mse}")
 
 # dt$station = station
 # dt$station = as.numeric(format(dt$station, “%Y”))
