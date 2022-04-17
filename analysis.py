@@ -7,7 +7,6 @@ from sklearn.model_selection import train_test_split
 
 
 data = pd.read_csv("01224099999.csv")
-mse_data = pd.read_csv("01224099999.csv", usecols=[16,20])
  
 
 x = data["WDSP"]
